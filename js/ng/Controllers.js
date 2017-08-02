@@ -12,8 +12,16 @@ app.controller('GlobalController', function ($scope, $http, $window) {
        
         $('#internship')[0].scrollIntoView( true );
    };
-   $scope.tab4=function(){
-      
-        $('#resume')[0].scrollIntoView( true );
+    $scope.tab4=function(){
+      alert("Coming Soon ");
+   };
+   $scope.tab5=function(){
+      window.open('pdf/Resume_ASWANTH.pdf');
+   };
+   $scope.openNav=function(){
+        document.getElementById("mySidenav").style.width = "250px";
+   };
+   $scope.closeNav=function(){
+      document.getElementById("mySidenav").style.width = "0";  
    };
 });
