@@ -63,7 +63,12 @@
     <body>
         <div data-ng-app="website" data-ng-controller="GlobalController">
             <!-- Navbar -->
-            <nav class="navbar navbar-default " style="position: fixed " >
+            <header id="header" >
+                 <button class="w3-button w3-hover-blue" ng-click="tab2()" >Home</button>
+    <button class="w3-button w3-hover-blue" ng-click="tab3()">Categories</button>
+    <button class="w3-button w3-hover-blue" ng-click="tab4()">Contact Us</button>
+            </header>
+<!--             <nav class="navbar navbar-default " style="position: fixed " >
                 <div class="container">
                     <div class="navbar-header">
                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -83,7 +88,7 @@
                         </span>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
             <!-- First Container -->
             <div id=home class="container-fluid bg-1 ">
                 <h3>Hie Geeks....</h3>
