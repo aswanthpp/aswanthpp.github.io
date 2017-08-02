@@ -20,6 +20,7 @@ app.controller('GlobalController', function ($scope, $http, $window) {
    };
    $scope.openNav=function(){
         document.getElementById("mySidenav").style.width = "250px";
+      alert("hi");
    };
    $scope.closeNav=function(){
       document.getElementById("mySidenav").style.width = "0";  
