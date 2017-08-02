@@ -2,7 +2,7 @@ var app = angular.module('website', []);
 app.controller('GlobalController', function ($scope, $http, $window) {
    $scope.tab1=function(){
        
-       $('#home')[0].scrollIntoView( true );
+       $('#resume')[0].scrollIntoView( true );
    };
    $scope.tab2=function(){
   
