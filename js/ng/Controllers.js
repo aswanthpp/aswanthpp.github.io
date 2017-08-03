@@ -12,9 +12,9 @@ app.controller('GlobalController', function ($scope, $http, $window) {
        
         $('#internship')[0].scrollIntoView( true );
    };
-    $scope.tab4=function(){
-      alert("Coming Soon ");
-   };
+//     $scope.tab4=function(){
+//       alert("Coming Soon ");
+//    };
    $scope.tab5=function(){
       window.open('pdf/Resume_ASWANTH.pdf');
    };
