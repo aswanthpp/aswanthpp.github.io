@@ -12,9 +12,10 @@ app.controller('GlobalController', function ($scope, $http, $window) {
        
         $('#internship')[0].scrollIntoView( true );
    };
-//     $scope.tab4=function(){
+     $scope.tab4=function(){
 //       alert("Coming Soon ");
-//    };
+         window.open('http://fourthmen.blogspot.in/');
+   };
    $scope.tab5=function(){
       window.open('pdf/Resume_ASWANTH.pdf');
    };
