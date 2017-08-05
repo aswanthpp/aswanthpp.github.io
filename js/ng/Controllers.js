@@ -17,7 +17,7 @@ app.controller('GlobalController', function ($scope, $http, $window) {
          window.open('http://fourthmen.blogspot.in/');
    };
    $scope.tab5=function(){
-      window.open('pdf/Resume_ASWANTH.pdf');
+      window.open('pdf/15CO112_05-08-2017.pdf');
    };
    $scope.openNav=function(){
         document.getElementById("mySidenav").style.width = "250px";
