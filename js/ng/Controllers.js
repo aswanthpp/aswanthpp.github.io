@@ -1,29 +1,32 @@
 var app = angular.module('website', []);
 app.controller('GlobalController', function ($scope, $http, $window) {
-   $scope.tab1=function(){
-       
-       $('#home')[0].scrollIntoView( true );
+    $scope.gotoParam = "views/home.html";
+
+    $scope.tab1 = function () {
+        $scope.gotoParam = "views/home.html";
+        //  $('#resume')[0].scrollIntoView( true );
+    };
+    $scope.tab2 = function () {
+        $scope.gotoParam = "views/projects.html";
+        // $('#projects')[0].scrollIntoView( true );
+    };
+    $scope.tab3 = function () {
+        $scope.gotoParam = "views/work-experience.html";
+    };
+    $scope.tab4 = function () {
+       alert("ComingSoon");
+       //coompitive coding part
+    };
+    $scope.tab5 = function () {
+        window.open('pdf/Resume_ASWANTH.pdf');
+    };
+   $scope.tab6=function(){
+        $scope.gotoParam = "views/contact.html";
    };
-   $scope.tab2=function(){
-  
-       $('#projects')[0].scrollIntoView( true );
-   };
-   $scope.tab3=function(){
-       
-        $('#internship')[0].scrollIntoView( true );
-   };
-     $scope.tab4=function(){
-//       alert("Coming Soon ");
-         window.open('http://fourthmen.blogspot.in/');
-   };
-   $scope.tab5=function(){
-      window.open('pdf/15CO112_05-08-2017.pdf');
-   };
-   $scope.openNav=function(){
+    $scope.openNav = function () {
         document.getElementById("mySidenav").style.width = "250px";
-     
-   };
-   $scope.closeNav=function(){
-      document.getElementById("mySidenav").style.width = "0";  
-   };
+    };
+    $scope.closeNav = function () {
+        document.getElementById("mySidenav").style.width = "0";
+    };
 });
