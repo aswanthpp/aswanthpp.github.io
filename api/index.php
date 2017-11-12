@@ -1,5 +1,0 @@
-<?php
-    $dbhost = 'localhost';
-    $dbname = 'db_name';
-    $dbuser = 'root';
-    $dbpass = '';
