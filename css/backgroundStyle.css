@@ -52,3 +52,11 @@ h1 {
     transform:translateX(25%);
   }
 }
+
+#sideNav{display: block;}
+
+@media screen and (max-width: 768px) {
+
+  #sideNav{display: None;}
+
+}
