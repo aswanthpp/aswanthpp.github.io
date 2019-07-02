@@ -54,9 +54,11 @@ h1 {
 }
 
 #sideNav{display: block;}
+#mobileHead{display: None}
 
 @media screen and (max-width: 768px) {
 
   #sideNav{display: None;}
+  #mobileHead{display: block;}
 
 }
